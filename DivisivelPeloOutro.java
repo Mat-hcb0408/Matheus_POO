@@ -23,9 +23,9 @@ public class DivisivelPeloOutro {
         return aux;
     }
     public static void ShowResult(int value, int num1, int num2){
-        if (value==0){
+        if (value==0) {
             System.out.println(num1 + " é divisível por " + num2);
-            else if (value==1){
+        }else if (value==1){
                 System.out.println(num2 + " é divisível por " + num1);
             }
         }
