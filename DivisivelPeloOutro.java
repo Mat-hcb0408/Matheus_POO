@@ -7,7 +7,7 @@ public class DivisivelPeloOutro {
         int num1 = sc.nextInt();
         System.out.println("Insira outro numero");
         int num2 = sc.nextInt();
-        int result=Divisivel();
+        int result=Divisivel(num1,num2);
         ShowResult(result,num1, num2);
     }
 
@@ -26,8 +26,7 @@ public class DivisivelPeloOutro {
         if (value==0) {
             System.out.println(num1 + " é divisível por " + num2);
         }else if (value==1){
-                System.out.println(num2 + " é divisível por " + num1);
-            }
+            System.out.println(num2 + " é divisível por " + num1);
         }
     }
 }
