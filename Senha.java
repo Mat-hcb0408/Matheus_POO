@@ -7,13 +7,22 @@ public class Senha {
         int senha= sc.nextInt();
         sc.close();
         int confirmacao=Acesso(senha);
+        ShowResult(confirmacao);
     }
     public static int Acesso (int senha) {
+        int aux;
         if (senha == 1234) {
-            System.out.println("acesso liberado");
+            aux=0;
         } else {
+            aux=1;
+        }
+        return aux;
+    }
+    public static void ShowResult(int value){
+        if (value==0){
+            System.out.println("acesso liberado");
+    } else if (value==1){
             System.out.println("acesso negado");
         }
-        return senha;
     }
-}
+    }
