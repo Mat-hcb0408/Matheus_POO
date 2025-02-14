@@ -28,6 +28,8 @@ public class DivisivelPeloOutro {
             System.out.println(num1 + " é divisível por " + num2);
         }else if (value==1){
             System.out.println(num2 + " é divisível por " + num1);
+        }else{
+            System.out.println("Nenhum dos números é divisível pelo outro.");
         }
     }
 }
