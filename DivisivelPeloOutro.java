@@ -7,6 +7,7 @@ public class DivisivelPeloOutro {
         int num1 = sc.nextInt();
         System.out.println("Insira outro numero");
         int num2 = sc.nextInt();
+        sc.close();
         int result=Divisivel(num1,num2);
         ShowResult(result,num1, num2);
     }
